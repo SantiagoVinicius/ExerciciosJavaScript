@@ -1,0 +1,9 @@
+let cartela = [8, 13, 18, 22, 42, 49]
+ let numeroSorteado = 42
+
+  for(let i = 0; i < cartela.length; i++){
+    if(cartela[i] == numeroSorteado){
+      console.log("Encontrei o número!")
+      break
+    }
+  }
