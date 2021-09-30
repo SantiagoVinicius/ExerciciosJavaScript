@@ -1,10 +1,5 @@
-let listaDeCarros = [ "Fox", "Uno", "Gol", "Astra", "Fiesta"]
+let listaDeCarros = ["Fox", "Uno", "Gol", "Astra", "Fiesta"];
 
-for(let i = ; i < listaDeCarros.length; i++){
-    if(listaDeCarros[i] == "Fox"){
-        console.log( "Nome do carro: " + listaDeCarros[i])
-        continue
-    }else{
-        console.log( "Nome do carro: " + listaDeCarros[i] )
-    }
+for(var i = 0; i < listaDeCarros.length; i++){
+    console.log("Nome do Carro: " + listaDeCarros[i]);
 }
