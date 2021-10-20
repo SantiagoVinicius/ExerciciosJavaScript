@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/estilo.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <h1>DigitalLaundry</h1>
+            <h4>Calcule o valor devído.</h4>
+        </div>
+        <div class="corpo">
+            <input type="number" id="valorKilo" placeholder="R$3,00 o valor do Kilo" disabled><br>
+            <label>+Valor Fixo R$10,00</label><br>
+            <input type="number" id="pesoRoupa" placeholder="PESO DA ROUPA"><br>
+            <button type="button" id="calcular" onclick="valorNovo();">CALCULAR</button>
+        </div>
+    
+        <div id="resultado"></div>
+    </div>
+
+    <script src="js/funcoes.js"></script>
+</body>
+</html>

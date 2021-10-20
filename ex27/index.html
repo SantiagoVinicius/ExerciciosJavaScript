@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="css/estilo.css" rel="stylesheet">
 </head>
 <body>
+    <div class="container">
+        <h2>Autonomia de Combustível</h2>   
+        <div class="valor">
+            <label>Quantidade de Combustível</label>
+            <input name="quantidade" id="quantidadeDeCombustivel"><br>
+            <label>Rendimento</label>
+            <input name="rendimento" id="rendimento">
+        </div>
+        <button type="button" id="somar" onclick="calcularValores();">calcular</button>
+        <h3 id="resultado"></h3>
+    </div>
     <script src="js/funcoes.js"></script>
 </body>
 </html>

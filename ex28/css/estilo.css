@@ -1,0 +1,42 @@
+*{
+    font-family:  'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url('../img/lavanderia2.jpg');
+    background-size: 70vh auto;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-left: 75vh;
+    margin-top: 4vw;
+}
+
+.cabecalho{
+    line-height: 10px;
+}
+
+.corpo{
+  margin-top: 20%;
+}  
+
+input{
+    width: 40vh;
+    height: 30px;
+    margin-top: 30px;
+}
+
+button{
+    width: 41vh;
+    height: 32px;
+    margin-top: 30px;
+    color: white;
+    background: green;
+    border: none;
+}
+
+#resultado{
+    margin-left: 45%;
+    margin-top: -15%;
+}

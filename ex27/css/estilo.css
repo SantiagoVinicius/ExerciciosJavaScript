@@ -1,0 +1,49 @@
+*{
+    font-family:  'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url('../img/carro.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+    color: white;
+}
+
+.container{
+    background: rgba(99, 102, 138, 0.432);
+    width: 400px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    position: absolute;
+    top: 25%;
+    padding: 0 40px 50px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.valor{
+    margin: 50px 0 50px;
+}
+
+input{
+    background: transparent;
+    border-radius: 45px;
+    border: 2px whitesmoke solid;
+    height: 20px;
+}
+
+button{
+    border: black 1px solid;
+    padding: 12px 30px;
+    background: whitesmoke;
+    color: black;
+    border-radius: 45px;
+}
+
+button:hover{
+    color: black;
+    background: white;
+}

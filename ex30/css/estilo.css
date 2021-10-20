@@ -1,0 +1,58 @@
+*{
+    font-family:  'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url('../img/cartao.jpg');
+    background-size: 70vh auto;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-left: 75vh;
+    margin-top: 3vw;
+}
+
+.corpo{
+    margin-top: 4vw;
+} 
+
+#nome, #sobrenome, #telefone, #profissao{
+    width: 47vh;
+    height: 25px;
+    display: flex;
+}
+
+.form {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+#email{
+    width: 100vh;
+    height: 25px;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100vh;
+    height: 35px;
+    border: none;
+    color: white;
+    background: black;
+}
+
+#cartao{
+    width: 300px;
+    height: 130px;
+    margin-top: 40px;
+    color: black;
+    background: whitesmoke;
+    border: solid 10px black;
+    padding: 0 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
